@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="assets/sass/main.css">
+</head>
+
+<body>
+    <section>
+        <form action="" onsubmit="return false">
+
+            <select name="month" id="month" onchange="(showHoroskop(document.getElementById('month').value))">
+                <option disabled selected value>--- Please select your birth month ---</option>
+                <option value="1">Januar</option>
+                <option value="2">Februar</option>
+                <option value="3">März</option>
+                <option value="4">April</option>
+                <option value="5">Mai</option>
+                <option value="6">Juni</option>
+                <option value="7">Juli</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">Oktober</option>
+                <option value="11">November</option>
+                <option value="12">Dezember</option>
+            </select>
+
+            <div id="anzeige">
+                <div id="zodiac"></div>
+                <div id="horoscope"></div>
+                <div id="img"></div>
+            </div>
+        </form>
+
+
+
+
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

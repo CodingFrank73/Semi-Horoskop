@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section {
+  width: 100%;
+}
+section form {
+  text-align: center;
+  margin-top: 10%;
+  position: relative;
+}
+
+#anzeige {
+  display: none;
+  box-shadow: 1px 1px 8px black;
+  height: 40vh;
+  width: 300px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#zodiac, #horoscope {
+  padding-top: 10px;
+}
+
+#img {
+  padding-top: 50px;
+}
+
+#month {
+  border-radius: 5px;
+  padding: 5px 10px;
+}/*# sourceMappingURL=main.css.map */
